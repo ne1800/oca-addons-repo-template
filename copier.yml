@@ -31,8 +31,7 @@ org_slug:
   type: str
   default: RS
   help:
-    What's the organization slug? If you are creating
-    https://github.com/OCA/server-tools, then write "OCA" here.
+    What's the organization slug?
 
 org_name:
   type: str
