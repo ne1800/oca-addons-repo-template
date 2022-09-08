@@ -105,14 +105,6 @@ repos:
     rev: 3.0.6
     hooks:
       - id: setuptools-odoo-make-default
-      {%- if generate_requirements_txt %}
-      - id: setuptools-odoo-get-requirements
-        args:
-          - --output
-          - requirements.txt
-          - --header
-          - "# generated from manifests external_dependencies"
-      {%- endif %}
   - repo: https://gitlab.com/pycqa/flake8
     rev: 3.7.9
     hooks:
